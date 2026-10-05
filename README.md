@@ -11,3 +11,13 @@ If the developer is unavailable, start with the handover runbook:
 [`docs/runbooks/handover.md`](https://github.com/it-admin-app/webprint-direct/blob/main/docs/runbooks/handover.md).
 It lists every account the app depends on, where each secret comes from (the values are in the
 company password manager), everyday operations, and how to move deploys to this account.
+
+## Plate Tracker — handover
+
+The shop's plate-consumption tracker (LAN only, `http://mainsvr-vm`) is in the private repo
+[`plate-tracker`](https://github.com/it-admin-app/plate-tracker).
+
+Handover runbook:
+[`docs/runbooks/handover.md`](https://github.com/it-admin-app/plate-tracker/blob/main/docs/runbooks/handover.md).
+It lists every machine, account and secret the app depends on (the values are in the company
+password manager), everyday operations, and the steps if the developer leaves.
